@@ -1,15 +1,24 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 
 /* HEADER SECTION */
-.header ul {
+.top-section {
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.header ul, a {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
+
+    text-decoration: none;
+    color: inherit;
 } 
 
 #header-logo {
@@ -23,15 +32,18 @@ body {
     padding: 100px;
     gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ad-content {
     list-style-type: none;
     max-width: 40%;
+    min-width: 240px;
 }
 
 #ad-img {
-    height: 300px;
+    max-height: 300px;
+    min-height: 100px;
     width: auto;
 }
 
@@ -64,6 +76,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px;
+    background-color: rgb(246, 246, 246);
 }
 
 .quote-sub {
@@ -93,4 +107,11 @@ body {
 }
 
 
+/* footer */
+.footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
 
