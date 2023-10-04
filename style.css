@@ -66,10 +66,16 @@ body {
     line-height: 22px;
 }
 
+.img-container {
+    display: flex;
+    flex-shrink: 0;
+    max-width: 500px;
+    height: auto;
+}
+
 #ad-img {
-    max-width: 50%;
-    min-height: auto;
-    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 #sign-up-button {
@@ -86,7 +92,9 @@ body {
 .middle-section {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-evenly;
 
     margin-top: 40px;
     margin-bottom: 40px;
@@ -94,14 +102,23 @@ body {
 
 .mid-section-content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    gap: 80px;
+
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 0;
+    list-style-type: none;
 }
 
 .profile-pic {
     height: 100px;
     width: 100px;
     object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 
