@@ -35,3 +35,24 @@ body {
     width: auto;
 }
 
+
+/* MIDDLE SECTION */
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-section-content {
+    display: flex;
+}
+
+.profile-pic {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+
+
+
