@@ -4,13 +4,18 @@ body {
     margin: 0;
     background-color: #0B090B;
     color: #f7f7f7;
-    font-size: 18px;
+    font-size: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-text {
     font-size: 48px;
     font-weight: 900px;
+}
+
+.hero-text {
+    font-size: 32px;
+    font-weight: bold;
 }
 
 
@@ -57,15 +62,24 @@ body {
     gap: 10px;
 }
 
+#ad-subtext {
+    line-height: 22px;
+}
+
 #ad-img {
-    max-height: 300px;
-    min-height: 100px;
+    max-width: 50%;
+    min-height: auto;
     width: auto;
 }
 
 #sign-up-button {
     font-size: 20px;
     padding: 10px;
+    border-radius: 10px;
+    background-color: #0074E0;
+    color: #f7f7f7;
+    font-weight: bold;
+    /* border-width: 0px; */
 }
 
 /* MIDDLE SECTION */
