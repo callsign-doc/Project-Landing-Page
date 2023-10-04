@@ -20,11 +20,18 @@ body {
 /* big-content section */
 .big-content {
     display: flex;
-    
+    padding: 100px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.ad-content {
+    list-style-type: none;
+    max-width: 40%;
 }
 
 #ad-img {
-    height: 80px;
+    height: 300px;
     width: auto;
 }
 
