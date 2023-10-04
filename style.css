@@ -2,13 +2,26 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: #0B090B;
+    color: #f7f7f7;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
 
 
 /* HEADER SECTION */
 .top-section {
     background-color: antiquewhite;
     padding: 30px;
+    background-color: #0B090B;
+    font-weight: lighter;
+    font-style: normal;
 }
 
 .header ul, a {
@@ -18,7 +31,7 @@ body {
     gap: 20px;
 
     text-decoration: none;
-    color: inherit;
+    color: #f7f7f7;
 } 
 
 #header-logo {
@@ -39,6 +52,9 @@ body {
     list-style-type: none;
     max-width: 40%;
     min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #ad-img {
@@ -47,6 +63,10 @@ body {
     width: auto;
 }
 
+#sign-up-button {
+    font-size: 20px;
+    padding: 10px;
+}
 
 /* MIDDLE SECTION */
 .middle-section {
@@ -77,7 +97,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 100px;
-    background-color: rgb(246, 246, 246);
+    background-color: #0B090B;
 }
 
 .quote-sub {
@@ -112,6 +132,6 @@ body {
     padding: 30px;
     display: flex;
     justify-content: center;
-    background-color: bisque;
+    background-color: #0074E0;
 }
 
