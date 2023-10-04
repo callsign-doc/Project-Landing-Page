@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER SECTION */
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 10px;
+} 
+
+#header-logo {
+    margin-right: auto;
+}
+
+
+/* big-content section */
+.big-content {
+    display: flex;
+    
+}
+
+#ad-img {
+    height: 80px;
+    width: auto;
+}
+
