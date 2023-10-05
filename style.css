@@ -149,13 +149,25 @@ body {
 
 .quote-sub {
     max-width: 65%;
+    font-size: 70px;
 }
 
 #quote-person {
     display: flex;
     justify-content: end;
+    margin-top: 40px;
+    font-size: 40px;
 }
 
+#blue-highlight {
+    color: #0074E0;
+    font-weight: 1000;
+    font-size: 70px;
+}
+
+#heaven-highlight {
+    color: #FF6700;
+}
 
 
 /* call to action (cat) */
