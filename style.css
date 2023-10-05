@@ -93,11 +93,13 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex-shrink: 1;
     align-items: center;
     justify-content: space-evenly;
 
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 50px;
 }
 
 .mid-section-content {
@@ -105,7 +107,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-    gap: 80px;
+    gap: 90px;
 
     margin-top: 40px;
     margin-bottom: 40px;
@@ -182,7 +184,39 @@ body {
 .call-to-action-sub {
     padding: 30px;
     max-width: 50%;
-    background-color: antiquewhite;
+    background-color: #221C22;
+}
+
+#cat-left {
+    font-size: 23px;
+
+}
+
+#cat-img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.cat-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#button-text {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800px;
+    border-radius: 10px;
+
+    background-color: #0074E0;
+    color: #F9EBE0;
+}
+
+#cook-icon {
+    max-height: 40px;
+    width: auto;
 }
 
 
